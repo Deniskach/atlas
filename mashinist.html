@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mashinist.css" />
+    <link
+      href="https://myfonts.ru/myfonts?fonts=moscow-sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!-- справочник -->
+    <div id="openSpravochnik" class="spravochnik">
+      <div class="spravochnik-dialog">
+        <div class="spravochnik-content">
+          <div class="spravochnik-header">
+            <h3 class="spravochnik-title">Справочник по заданию</h3>
+            <a href="#close" title="Close" class="close">×</a>
+          </div>
+          <div class="spravochnik-body">
+            Здесь будут правила и объяснения для каждого этапа задания
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- этапы выполнения задания -->
+    <div id="openEtapi" class="etapi">
+      <div class="etapi-dialog">
+        <div class="etapi-content">
+          <div class="etapi-header">
+            <h3 class="etapi-title">Этапы выполнения задания</h3>
+            <a href="#close" title="Close" class="close">×</a>
+          </div>
+          <div class="etapi-body">Здесь будут этапы задания</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="menu">
+        <!--Шапка - меню-->
+        <img class="metro" src="images\metro1.png" alt="" />
+        <img class="line1" src="images\Line1.png" alt="" />
+        <div class="atlas-profesi">Атлас профессий</div>
+        <div class="menu-but">
+          <!--Кнопки меню-->
+          <a class="main-menu" href="">Главная</a>
+          <a class="map-menu" href="map-menu.html">Карта</a>
+          <a class="call-menu" href="">Контакты</a>
+        </div>
+      </div>
+      <hr class="stick-menu" />
+      <div class="content-container">
+        <div class="button-container">
+          <a href="#openSpravochnik" class="spravochnik1">Справочник</a>
+          <a href="#openEtapi" class="etapi-zadania1"
+            >Этапы выполнения заданий</a
+          >
+          <a href="" class="test-proforientir">Тест на профориентацию</a>
+        </div>
+        <div class="mashinist-info">
+          <div class="mashinist-info-all">
+            <div class="mashinist"><b>Машинист электропоезда</b></div>
+            <div class="mashinist-txt">
+              Это не просто водитель, а ответственный профессионал, который
+              управляет поездом, следит за безопасностью движения, строго
+              соблюдает график и оперативно реагирует на нештатные ситуации.
+              <p></p>
+              Он должен знать правила эксплуатации метро, конструкцию поезда,
+              основы охраны труда и пожарной безопасности, а также правила
+              оказания первой помощи.
+              <p></p>
+              Машинист электропоезда — ключевая фигура в бесперебойной работе
+              метро, делая путешествие комфортным для тысяч пассажиров каждый
+              день.
+            </div>
+            <a href="mashinist_game.html" class="zadanie">К заданию</a>
+          </div>
+          <div class="mashinist-info-img">
+            <img src="images\mashinist_men.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="podval" style="background-color: #d9d9d9">
+      <!-- подвал -->
+      <img src="images\podval.png" class="podval_1" alt="" />
+    </div>
+  </body>
+</html>

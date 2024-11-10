@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mashinist_game.css" />
+    <link
+      href="https://myfonts.ru/myfonts?fonts=moscow-sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!-- справочник -->
+    <div id="openSpravochnik" class="spravochnik">
+      <div class="spravochnik-dialog">
+        <div class="spravochnik-content">
+          <div class="spravochnik-header">
+            <h3 class="spravochnik-title">Справочник по заданию</h3>
+            <a href="#close" title="Close" class="close">×</a>
+          </div>
+          <div class="spravochnik-body">
+            Здесь будут правила и объяснения для каждого этапа задания
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="menu">
+        <!--Шапка - меню-->
+        <img class="metro" src="images\metro1.png" alt="" />
+        <img class="line1" src="images\Line1.png" alt="" />
+        <div class="atlas-profesi">Атлас профессий</div>
+        <div class="menu-but">
+          <!--Кнопки меню-->
+          <a class="main-menu" href="">Главная</a>
+          <a class="map-menu" href="map-menu.html">Карта</a>
+          <a class="call-menu" href="">Контакты</a>
+        </div>
+      </div>
+      <hr class="stick-menu" />
+      <div class="content-container">
+        <div class="info-simulator">
+          <div class="stage">Этап 1</div>
+          <div class="button-info">
+            <div class="exit">
+              <a href="mashinist.html">Назад</a>
+            </div>
+            <div class="spravochnik1">
+              <a href="#openSpravochnik">Справочник</a>
+            </div>
+          </div>
+        </div>
+        <div class="game-frame"></div>
+      </div>
+    </div>
+    <div class="podval" style="background-color: #d9d9d9">
+      <!-- подвал -->
+      <img src="images\podval.png" class="podval_1" alt="" />
+    </div>
+  </body>
+</html>
