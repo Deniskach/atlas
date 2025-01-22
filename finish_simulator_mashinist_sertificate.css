@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Moscow Sans';
+  src: url('fonts/moscowsansregular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Moscow Sans', arial;
+  background-color: #faf3e9;
+}
+
+.container {
+  position: relative;
+}
+
+.content-container {
+  position: relative;
+}
+
+.menu {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.metro {
+  margin: 10px 16px 10px 60px;
+  display: flex;
+}
+
+.atlas-profesi {
+  margin-left: 16px;
+  font-family: 'Moscow Sans', arial;
+  font-size: 40px;
+  color: #b10431;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-but {
+  word-spacing: 37px;
+  margin-left: 460px;
+}
+
+.main-menu,
+.call-menu,
+.map-menu {
+  font-style: normal;
+  font-size: 24px;
+  color: black;
+  opacity: 60%;
+}
+
+.stick-menu {
+  position: absolute;
+  width: 99.9%;
+  border-color: #b10431;
+  left: 0px;
+  top: 89px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.name-sertificate {
+  background: linear-gradient(to bottom, #ffdf05, #feb802);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  position: absolute;
+  top: 15%;
+  left: 23%;
+  line-height: 0.9;
+}
+
+input {
+  background: transparent;
+  outline: none !important;
+  border: none;
+  text-align: center;
+  font-weight: 550;
+}
+
+#text {
+  font-size: 24px;
+  width: 500px;
+}
+
+.info-sertificate {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  left: 15%;
+  letter-spacing: 3px;
+}
+
+.podval-container {
+  margin-top: -5px;
+  display: flex;
+  padding: 40px 200px 50px 200px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.podval-metro {
+  margin-bottom: 20px;
+}
+
+.podval-info,
+.podval-mos,
+.podval-mintrans,
+.podval-transport,
+.podval-mosgortrans {
+  color: #b10431;
+  padding-bottom: 15px;
+}
+
+.we-soc {
+  color: #b10431;
+  font-size: 24px;
+}
+
+.pravitelstvo-mos,
+.ministerstvo-transport,
+.transport-mos,
+.departament,
+.unitarnoe-pred {
+  margin-top: 7px;
+  margin-bottom: 20px;
+}

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Moscow Sans';
+  src: url('fonts/moscowsansregular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* css для справочника и этапов выполнения */
 .spravochnik {
   position: fixed; /* фиксированное положение */
@@ -29,7 +36,7 @@
 }
 @media (min-width: 576px) {
   .spravochnik-dialog {
-    max-width: 500px;
+    max-width: 700px;
     margin: 30px auto; /* отображение окна по центру */
   }
 }
@@ -218,12 +225,37 @@ a {
   margin-top: 20px;
 }
 
-.podval {
+.podval-container {
   margin-top: 50px;
-  margin-left: 0px;
+  display: flex;
+  padding: 40px 200px 50px 200px;
+  justify-content: space-between;
+  font-size: 18px;
 }
 
-.podval_1 {
-  width: 100%;
-  height: 100%;
+.podval-metro {
+  margin-bottom: 20px;
+}
+
+.podval-info,
+.podval-mos,
+.podval-mintrans,
+.podval-transport,
+.podval-mosgortrans {
+  color: #b10431;
+  padding-bottom: 15px;
+}
+
+.we-soc {
+  color: #b10431;
+  font-size: 24px;
+}
+
+.pravitelstvo-mos,
+.ministerstvo-transport,
+.transport-mos,
+.departament,
+.unitarnoe-pred {
+  margin-top: 7px;
+  margin-bottom: 20px;
 }

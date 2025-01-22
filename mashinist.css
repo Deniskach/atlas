@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Moscow Sans';
+  src: url('fonts/moscowsansregular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* css для справочника и этапов выполнения */
 .spravochnik,
 .etapi {
@@ -33,7 +40,7 @@
 @media (min-width: 576px) {
   .spravochnik-dialog,
   .etapi-dialog {
-    max-width: 500px;
+    max-width: 700px;
     margin: 30px auto; /* отображение окна по центру */
   }
 }
@@ -210,7 +217,8 @@ a {
   width: 100%;
   height: 685px;
   border-radius: 20px;
-  background-color: white;
+  background-image: url(images/машинист_эп.png);
+  background-size: cover;
   margin-top: 50px;
   display: flex;
 }
@@ -222,11 +230,13 @@ a {
 }
 
 .mashinist-txt {
-  width: 650px;
+  width: 750px;
   font-size: 24px;
+  height: auto;
   padding-top: 40px;
   padding-left: 48px;
-  padding-bottom: 160px;
+  font-weight: bold;
+  margin-bottom: 105px;
 }
 
 .zadanie {
@@ -243,12 +253,95 @@ a {
   padding-left: 200px;
 }
 
-.podval {
-  margin-top: 50px;
-  margin-left: 0px;
+ul li {
+  list-style: none;
+  padding: 20px 0px 20px 0px;
 }
 
-.podval_1 {
+.duties-container {
   width: 100%;
-  height: 100%;
+  height: 465px;
+  border-radius: 20px;
+  background-image: url(images/back_1.png);
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.duties {
+  padding-left: 40px;
+  font-size: 38px;
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+.duties-txt {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.will-get-container {
+  width: 100%;
+  height: 465px;
+  border-radius: 20px;
+  background-image: url(images/машинист_эп2.png);
+  background-size: cover;
+  margin-top: 50px;
+  display: flex;
+}
+
+.will-get-t {
+  width: 600px;
+}
+
+.will-get {
+  padding-left: 40px;
+  font-size: 38px;
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+.will-get-txt {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.voditel {
+  height: 370px;
+  padding-top: 65px;
+  padding-left: 220px;
+}
+
+.podval-container {
+  margin-top: 50px;
+  display: flex;
+  padding: 40px 200px 50px 200px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.podval-metro {
+  margin-bottom: 20px;
+}
+
+.podval-info,
+.podval-mos,
+.podval-mintrans,
+.podval-transport,
+.podval-mosgortrans {
+  color: #b10431;
+  padding-bottom: 15px;
+}
+
+.we-soc {
+  color: #b10431;
+  font-size: 24px;
+}
+
+.pravitelstvo-mos,
+.ministerstvo-transport,
+.transport-mos,
+.departament,
+.unitarnoe-pred {
+  margin-top: 7px;
+  margin-bottom: 20px;
 }
